@@ -4,8 +4,8 @@ import { withRouter } from "react-router";
 import { HeaderBar, NavBar, NotFound } from "./components";
 import About from "./About";
 import "./App.css";
-// import 'bulma/css/bulma.css';
-// import './styles.scss';
+import 'bulma/css/bulma.css';
+import './styles.scss';
 
 const Products = withRouter(
   lazy(() => import(/* webpackChunkName: "products" */ "./products/Products"))
